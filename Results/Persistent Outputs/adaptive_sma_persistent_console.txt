@@ -1,0 +1,1014 @@
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 208ms | EWMA=207.9ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 209ms | EWMA=208.1ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 209ms | EWMA=208.3ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 209ms | EWMA=208.4ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 209ms | EWMA=208.6ms
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60117) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60071) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60125) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60107) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60120) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60089) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60098) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60073) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.065] ('127.0.0.1', 60119) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=209.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 210ms | EWMA=208.8ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 210ms | EWMA=209.1ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 210ms | EWMA=209.3ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 210ms | EWMA=209.4ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 210ms | EWMA=209.5ms
+
+[2025-05-08T12:29:31.066] ('127.0.0.1', 60121) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.066] ('127.0.0.1', 60044) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.066] ('127.0.0.1', 60111) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.066] ('127.0.0.1', 60126) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.067] ('127.0.0.1', 60084) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.067] ('127.0.0.1', 60076) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.067] ('127.0.0.1', 60095) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.067] ('127.0.0.1', 60047) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.067] ('127.0.0.1', 60045) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=210.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=209.8ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.1ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.2ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.4ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.5ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.6ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.7ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.8ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.8ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.8ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.9ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.9ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.9ms
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60108) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60139) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60127) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60041) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60061) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60040) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60110) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60091) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60083) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.069] ('127.0.0.1', 60088) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=211.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.1ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.3ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.4ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.6ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.6ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.7ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.8ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.8ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+→ http://localhost:8082 responded 200 in 212ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+
+[2025-05-08T12:29:31.071] ('127.0.0.1', 60128) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=212.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.071] ('127.0.0.1', 60065) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=212.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.072] ('127.0.0.1', 60109) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=212.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.072] ('127.0.0.1', 60062) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=212.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.072] ('127.0.0.1', 60114) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=212.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+→ http://localhost:8082 responded 200 in 213ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.2ms
+→ http://localhost:8082 responded 200 in 213ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.4ms
+→ http://localhost:8082 responded 200 in 213ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.5ms
+→ http://localhost:8082 responded 200 in 213ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.6ms
+→ http://localhost:8082 responded 200 in 213ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.7ms
+
+[2025-05-08T12:29:31.072] ('127.0.0.1', 60116) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60129) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60105) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60113) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60133) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60064) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60075) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60077) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60049) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60101) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60106) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60081) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.073] ('127.0.0.1', 60102) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60136) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60068) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60092) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60131) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60104) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60138) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60134) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60066) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.074] ('127.0.0.1', 60132) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60090) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60058) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60052) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60050) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60123) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60056) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60086) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60069) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.075] ('127.0.0.1', 60096) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60103) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60046) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60048) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60051) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60060) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T12:29:31.076] ('127.0.0.1', 60112) → GET /
+[SMA] SMAs: 8081=439.3ms, 8082=213.0ms, 8083=289.3ms
+[SMA] chosen: http://localhost:8082
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.3ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.1ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=211.9ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=211.7ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=211.3ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=211.1ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.9ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.7ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.6ms
+→ http://localhost:8082 responded 200 in 211ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=210.6ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.5ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.4ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.3ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.3ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.2ms
+→ http://localhost:8082 responded 200 in 210ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=210.2ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 209ms | EWMA=209.9ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 209ms | EWMA=209.7ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 209ms | EWMA=209.6ms
+→ http://localhost:8082 responded 200 in 209ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 209ms | EWMA=209.5ms
+→ http://localhost:8082 responded 200 in 208ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 208ms | EWMA=209.2ms
+→ http://localhost:8082 responded 200 in 207ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 207ms | EWMA=208.7ms
+→ http://localhost:8082 responded 200 in 207ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 207ms | EWMA=208.4ms
+→ http://localhost:8082 responded 200 in 207ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 207ms | EWMA=208.1ms
+→ http://localhost:8082 responded 200 in 207ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 207ms | EWMA=207.9ms
+→ http://localhost:8082 responded 200 in 206ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 206ms | EWMA=207.5ms
+→ http://localhost:8082 responded 200 in 206ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 206ms | EWMA=207.2ms
+→ http://localhost:8082 responded 200 in 206ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 206ms | EWMA=207.0ms
+→ http://localhost:8082 responded 200 in 206ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 206ms | EWMA=206.8ms
+→ http://localhost:8082 responded 200 in 206ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 206ms | EWMA=206.6ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=206.3ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=206.0ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.8ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.7ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.5ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.4ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.3ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.3ms
+→ http://localhost:8082 responded 200 in 205ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 205ms | EWMA=205.2ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=205.0ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.8ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.6ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.5ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.4ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.3ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.3ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.2ms
+→ http://localhost:8082 responded 200 in 204ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 204ms | EWMA=204.2ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.9ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.7ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.6ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.5ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.4ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.3ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.2ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.2ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.2ms
+→ http://localhost:8082 responded 200 in 203ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 203ms | EWMA=203.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=202.7ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=202.4ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=202.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.9ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.7ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.6ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.4ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.4ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.3ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.2ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.2ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.1ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms
+→ http://localhost:8082 responded 200 in 201ms
+[Debug] backend session closed? False
+[Debug] resp.force_close? <bound method StreamResponse.force_close of <Response OK not prepared>>
+[Debug] transport.is_closing()? None
+[Perf Update] http://localhost:8082 → 201ms | EWMA=201.0ms

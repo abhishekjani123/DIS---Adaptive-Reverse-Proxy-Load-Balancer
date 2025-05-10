@@ -1,0 +1,9 @@
+(venv) abhishekjani@Mac DIS Project % wrk -t4 -c100 -d120s http://localhost:9090
+Running 2m test @ http://localhost:9090
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   213.39ms   13.72ms 434.25ms   93.94%
+    Req/Sec   117.72     68.28   242.00     57.61%
+  56244 requests in 2.00m, 9.98MB read
+Requests/sec:    468.43
+Transfer/sec:     85.08KB
