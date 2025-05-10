@@ -76,33 +76,12 @@ def select_backend_adaptive_ewma():
     unmeasured_servers = [u for u, v in ewma_values.items() if math.isinf(v)]
 
     if unmeasured_servers:
-        # Cycle through unmeasured servers first to warm them up
-        # This ensures the cycler state is consistent with probing logic
-        # Create a temporary cycler for unmeasured servers to ensure each is probed
-        probe_cycler = itertools.cycle(sorted(list(unmeasured_servers))) # Sort for deterministic probing order
-        
-        # Find the next server in the main cycle that is also in unmeasured_servers
-        # This is a bit more complex than just picking from unmeasured_servers to maintain some round-robin nature for probes
-        # However, a simpler approach might be better: just pick the next from 'unmeasured_servers' list.
-        # For now, let's try to find the next unmeasured server in the global cycle order.
-        
-        # Simpler probing: pick the next server from the unmeasured list based on the main cycler's current state
-        # This ensures we eventually cycle through all unmeasured servers.
-        
-        # A more robust way to ensure all unmeasured are probed before relying on EWMA:
-        # Iterate through BACKEND_SERVERS in order. If one is unmeasured, pick it.
-        # This might not be perfectly round-robin for probes if the list of unmeasured servers changes.
-        
-        # Let's use a simpler strategy: pick the first unmeasured server found by iterating through BACKEND_SERVERS.
-        # This is deterministic if the order of BACKEND_SERVERS is fixed.
-        for server_url in BACKEND_SERVERS: # Iterate in a fixed order
+        probe_cycler = itertools.cycle(sorted(list(unmeasured_servers))) 
+        for server_url in BACKEND_SERVERS: 
             if server_url in unmeasured_servers:
                 print(f"[EWMA] Probing unmeasured: {server_url}", flush=True)
                 return server_url
-        # Fallback if logic error, though unmeasured_servers check should prevent this
         return next(backend_server_cycler)
-
-
     print("[EWMA] EWMAs: " + ", ".join(f"{u.split(':')[-1]}={ewma_values[u]:.1f}ms" for u in ewma_values), flush=True)
     chosen_backend = min(ewma_values, key=ewma_values.get)
     print(f"[EWMA] Chosen: {chosen_backend}", flush=True)
