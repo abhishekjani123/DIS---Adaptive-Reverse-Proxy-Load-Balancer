@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proxy Dashboard</title>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@^3"></script>
+    <style>
+        body { font-family: sans-serif; padding: 10px; background-color: #f4f4f4; margin: 0; }
+        h1 { text-align: center; color: #333; margin-bottom: 15px;}
+        h2 { text-align: center; color: #555; margin-bottom: 15px; margin-top: 0;}
+        section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 25px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 1100px;
+        }
+        .stats { background-color: #e9ecef; padding: 12px; border-radius: 5px; margin-bottom: 20px; font-size: 1.1em; text-align: center; }
+        .stats strong { color: #0056b3; }
+        .chart-container { width: 100%; min-height: 400px; position: relative; margin-bottom: 10px; }
+        .table-section { display: flex; flex-direction: column; }
+        .table-container { width: 100%; max-height: 500px; overflow-y: auto; margin-bottom: 10px; border: 1px solid #ccc;}
+        table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+        th, td { border: 1px solid #ddd; padding: 6px; text-align: center; }
+        th { background: #0056b3; color: #fff; position: sticky; top: 0; z-index: 1;}
+        #explanation { margin-top: 10px; font-style: italic; color: #555; text-align: center; font-size: 0.95em;}
+        .error-message { color: red; text-align: center; margin-top: 10px; font-weight: bold;}
+        .status-message { color: #444; text-align: center; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Proxy Real-time Dashboard</h1>
+
+    <section class="stats">
+        Current Mode: <strong id="currentMode">--</strong> |
+        Avg Recent Latency (Window): <strong id="avgLatency">--</strong> ms
+        <div id="errorMessage" class="error-message"></div>
+        <div id="statusMessage" class="status-message"></div>
+    </section>
+
+    <section id="latency-section">
+        <h2>Recent Latency Trend (Plotly)</h2>
+        <div id="latencyPlot" class="chart-container"></div>
+    </section>
+
+    <section id="distribution-section">
+         <h2>Recent Request Distribution (Chart.js)</h2>
+         <div class="chart-container">
+            <canvas id="distributionChart"></canvas>
+         </div>
+    </section>
+
+     <section id="table-section" class="table-section">
+        <h2>Latest Requests & SMA Values</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Chosen Port</th>
+                        <th>Latency(ms)</th>
+                        <th>SMA (A:8081)</th>
+                        <th>SMA (B:8082)</th>
+                        <th>SMA (C:8083)</th>
+                    </tr>
+                </thead>
+                <tbody id="smaTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div id="explanation"></div>
+     </section>
+
+    <script>
+        let distributionChartInstance;
+        const latencyPlotDiv = document.getElementById('latencyPlot');
+        const UPDATE_INTERVAL = 5000;
+
+        function simpleHash(str) {
+            let hash = 0; if (!str || str.length === 0) return 0;
+            for (let i = 0; i < str.length; i++) { const char = str.charCodeAt(i); hash = ((hash << 5) - hash) + char; hash |= 0; }
+            return Math.abs(hash);
+        }
+
+        function updatePlotlyLatencyChart(plotlyData) {
+            if (!plotlyData || !Array.isArray(plotlyData)) {
+                console.warn("Plotly latency update skipped: Invalid data structure.", plotlyData);
+                return;
+            }
+            console.log("Updating Plotly latency chart with traces:", plotlyData.length);
+
+            const layout = {
+                title: 'Latency Trend (ms)',
+                xaxis: {
+                    title: 'Time',
+                    type: 'date',
+                },
+                yaxis: {
+                    title: 'Latency (ms)',
+                    rangemode: 'tozero'
+                },
+                margin: { l: 50, r: 50, b: 50, t: 50, pad: 4 },
+                legend: { x: 0.5, y: 1.1, xanchor: 'center', orientation: 'h' }
+            };
+            Plotly.react(latencyPlotDiv, plotlyData, layout, {responsive: true});
+        }
+
+        function updateDistributionChart(chartData) {
+            if (!chartData || !Array.isArray(chartData.labels) || !Array.isArray(chartData.data)) {
+                console.warn("Distribution chart update skipped: Invalid data structure received.", chartData);
+                return;
+            }
+            console.log("Updating distribution chart with labels:", chartData.labels);
+
+            const ctx = document.getElementById('distributionChart').getContext('2d');
+            const backgroundColors = chartData.labels.map(label => `hsl(${simpleHash(String(label)) % 360}, 70%, 60%)`);
+
+            if (distributionChartInstance) {
+                distributionChartInstance.data.labels = chartData.labels;
+                distributionChartInstance.data.datasets[0].data = chartData.data;
+                distributionChartInstance.data.datasets[0].backgroundColor = backgroundColors;
+                distributionChartInstance.update('none');
+            } else {
+                distributionChartInstance = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: chartData.labels,
+                        datasets: [{
+                            label: 'Request Count',
+                            data: chartData.data,
+                            backgroundColor: backgroundColors,
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                         responsive: true,
+                         maintainAspectRatio: false,
+                         scales: {
+                            x: { title: { display: true, text: 'Backend Server (Port)' } },
+                            y: { beginAtZero: true, title: { display: true, text: 'Number of Requests' } }
+                        },
+                        plugins: { legend: { display: false } }
+                    }
+                });
+            }
+        }
+
+        function renderTable(data) {
+             if (!data || !Array.isArray(data.sma_table)) {
+                 console.warn("SMA table update skipped: data missing.");
+                 return;
+             }
+            console.log("Updating SMA table with rows:", data.sma_table.length);
+            const tbody = document.getElementById('smaTableBody');
+            tbody.innerHTML = '';
+            data.sma_table.forEach(r => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${r.timestamp || 'N/A'}</td>
+                    <td>${r.chosen || 'N/A'}</td>
+                    <td>${r.latency_ms !== undefined ? r.latency_ms : 'N/A'}</td>
+                    <td>${r.smaA !== undefined ? r.smaA : 'N/A'}</td>
+                    <td>${r.smaB !== undefined ? r.smaB : 'N/A'}</td>
+                    <td>${r.smaC !== undefined ? r.smaC : 'N/A'}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function fetchDataAndUpdate() {
+            const errorDiv = document.getElementById('errorMessage');
+            const statusDiv = document.getElementById('statusMessage');
+            errorDiv.textContent = '';
+            statusDiv.textContent = '';
+
+            try {
+                const response = await fetch('/data');
+                if (!response.ok || !response.headers.get("content-type")?.includes("application/json")) {
+                     const text = await response.text();
+                     console.error("Failed to fetch data:", response.status, response.statusText, text);
+                     errorDiv.textContent = `Error fetching data: ${response.status} ${response.statusText}. Check Flask server logs.`;
+                     return;
+                 }
+
+                const data = await response.json();
+
+                if (data.error) {
+                    console.error("Error from server:", data.error);
+                    errorDiv.textContent = `Server Error: ${data.error}`;
+                    return;
+                }
+                if (data.message) {
+                    console.log("Server message:", data.message);
+                    statusDiv.textContent = `Status: ${data.message}`;
+                }
+
+                document.getElementById('currentMode').textContent = data.current_mode || 'N/A';
+                document.getElementById('avgLatency').textContent = data.avg_recent_latency !== undefined ? data.avg_recent_latency : 'N/A';
+
+                if (data.plotly_latency_data) {
+                    updatePlotlyLatencyChart(data.plotly_latency_data);
+                } else {
+                     console.warn("Plotly latency data missing in payload from /data");
+                }
+                if (data.request_distribution) {
+                    updateDistributionChart(data.request_distribution);
+                } else {
+                     console.warn("Request distribution data missing in payload from /data");
+                }
+                if (data.sma_table) {
+                     renderTable(data);
+                } else {
+                     console.warn("SMA table data missing in payload from /data");
+                }
+                if (data.explanation) {
+                    document.getElementById('explanation').textContent = data.explanation;
+                }
+
+            } catch (error) {
+                console.error("Error fetching or processing data in JS:", error);
+                errorDiv.textContent = `Dashboard JavaScript Error: ${error}. Check console.`;
+            }
+        }
+
+        fetchDataAndUpdate();
+        setInterval(fetchDataAndUpdate, UPDATE_INTERVAL);
+    </script>
+</body>
+</html>
