@@ -1,0 +1,1014 @@
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 229ms | EWMA=221.3ms
+
+[2025-05-08T11:23:09.859] ('127.0.0.1', 63284) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=229.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 228ms | EWMA=222.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 228ms | EWMA=223.7ms
+
+[2025-05-08T11:23:09.859] ('127.0.0.1', 63285) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=228.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.860] ('127.0.0.1', 63286) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=228.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 227ms | EWMA=224.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 227ms | EWMA=224.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.3ms
+
+[2025-05-08T11:23:09.861] ('127.0.0.1', 63290) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.861] ('127.0.0.1', 63292) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=224.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 223ms | EWMA=224.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 223ms | EWMA=224.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 223ms | EWMA=224.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=224.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=224.0ms
+
+[2025-05-08T11:23:09.864] ('127.0.0.1', 63308) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.864] ('127.0.0.1', 63311) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.864] ('127.0.0.1', 63312) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.865] ('127.0.0.1', 63313) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.865] ('127.0.0.1', 63324) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.865] ('127.0.0.1', 63325) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=223.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=224.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 224ms | EWMA=224.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=224.2ms
+
+[2025-05-08T11:23:09.866] ('127.0.0.1', 63326) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.866] ('127.0.0.1', 63327) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.866] ('127.0.0.1', 63338) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.867] ('127.0.0.1', 63339) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.867] ('127.0.0.1', 63353) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=224.3ms
+
+[2025-05-08T11:23:09.867] ('127.0.0.1', 63354) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=224.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=224.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=224.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+
+[2025-05-08T11:23:09.869] ('127.0.0.1', 63359) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=225.7ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 227ms | EWMA=225.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 227ms | EWMA=226.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.7ms
+
+[2025-05-08T11:23:09.872] ('127.0.0.1', 63371) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.872] ('127.0.0.1', 63374) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.872] ('127.0.0.1', 63375) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.872] ('127.0.0.1', 63376) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.8ms
+
+[2025-05-08T11:23:09.873] ('127.0.0.1', 63377) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.873] ('127.0.0.1', 63378) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.873] ('127.0.0.1', 63383) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.874] ('127.0.0.1', 63384) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=226.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=224.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=223.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=222.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=221.4ms
+
+[2025-05-08T11:23:09.875] ('127.0.0.1', 63388) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.875] ('127.0.0.1', 63389) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63391) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63404) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63405) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63411) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63414) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.876] ('127.0.0.1', 63419) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=218.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=220.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=220.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=219.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=219.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.2ms
+
+[2025-05-08T11:23:09.879] ('127.0.0.1', 63420) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=219.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.879] ('127.0.0.1', 63423) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=219.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.879] ('127.0.0.1', 63424) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=219.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.879] ('127.0.0.1', 63425) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=219.0ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=219.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 220ms | EWMA=219.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 220ms | EWMA=219.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 220ms | EWMA=219.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 220ms | EWMA=219.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 218ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 219ms | EWMA=219.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 222ms | EWMA=219.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=219.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=220.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=220.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=220.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=220.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=220.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 222ms | EWMA=220.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport.is_closing()? False
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.2ms
+
+[2025-05-08T11:23:09.887] ('127.0.0.1', 63442) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.887] ('127.0.0.1', 63444) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.887] ('127.0.0.1', 63445) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.887] ('127.0.0.1', 63446) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63447) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63457) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63458) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63459) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63476) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.890] ('127.0.0.1', 63480) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63481) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63482) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63484) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63485) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63497) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63498) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.891] ('127.0.0.1', 63499) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.892] ('127.0.0.1', 63503) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.892] ('127.0.0.1', 63504) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.892] ('127.0.0.1', 63505) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63506) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63507) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63534) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63535) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63536) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63537) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63538) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.893] ('127.0.0.1', 63539) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63541) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63556) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63557) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63561) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63562) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63563) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63564) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63565) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63610) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63611) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63635) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+
+[2025-05-08T11:23:09.894] ('127.0.0.1', 63636) → GET /
+[SMA] SMAs: 8081=435.0ms, 8082=221.3ms, 8083=278.7ms
+[SMA] chosen: http://localhost:8082
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 215ms | EWMA=220.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 215ms | EWMA=219.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 214ms | EWMA=218.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 214ms | EWMA=217.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=216.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=215.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=214.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=214.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=213.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=213.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=212.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 210ms | EWMA=211.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=211.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=211.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 230ms | EWMA=215.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 231ms | EWMA=218.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 231ms | EWMA=220.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 229ms | EWMA=222.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 229ms | EWMA=223.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 226ms | EWMA=224.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 226ms | EWMA=224.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 226ms | EWMA=224.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=224.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 226ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 225ms | EWMA=225.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=224.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=224.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=223.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=223.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=223.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=223.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=223.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=222.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=222.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 220ms | EWMA=222.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 221ms | EWMA=222.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 222ms | EWMA=221.9ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 223ms | EWMA=222.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 220ms | EWMA=221.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 220ms | EWMA=221.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 221ms | EWMA=221.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=219.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=218.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=217.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 214ms | EWMA=216.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=215.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=214.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=214.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=213.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=213.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=213.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 211ms | EWMA=212.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.1ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.3ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.2ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 212ms | EWMA=212.4ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.5ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.6ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.7ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 213ms | EWMA=212.8ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 214ms | EWMA=213.0ms
+[Debug] backend session closed? True
+[Debug] resp.force_close? True
+[Debug] transport: None
+[Perf Update] http://localhost:8082 → 214ms | EWMA=213.2ms
