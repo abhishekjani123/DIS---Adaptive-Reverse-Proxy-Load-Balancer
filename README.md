@@ -227,6 +227,6 @@ With the Backend Servers, Proxy Server, and (optionally) Dashboard Server runnin
 -------------
 ## 12. Authors
 -------------
-* Shrey Patel (sp2675)
 * Abhishek Jani (aj1121)
+* Shrey Patel (sp2675)
 * Mustafa Adil (ma2398)
